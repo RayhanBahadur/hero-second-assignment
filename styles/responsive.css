@@ -1,0 +1,137 @@
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+  .banner-section {
+    width: 335px;
+  }
+  .banner-text h3 {
+    font-size: 22px;
+  }
+  .banner-text p {
+    font-size: 14px;
+  }
+  .banner-text {
+    padding: 15px 24px;
+  }
+  .input-item {
+    margin-left: 0;
+    flex-direction: column;
+    gap: 16px;
+    width: 287px;
+    padding: 16px;
+    box-sizing: border-box;
+    margin: 0 24px;
+  }
+  .input-item input {
+    width: 238px;
+  }
+  .btn {
+    width: 100%;
+  }
+
+  .tour-container h2 {
+    font-size: 20px;
+  }
+  .tour-container p,
+  ul > li {
+    font-size: 14px;
+  }
+  .full-container {
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .tour-container {
+    padding: 0 20px;
+  }
+  .tour-container .btn {
+    width: 174px;
+  }
+  .tour-img {
+    width: 335px;
+    margin: 0 20px;
+  }
+  .tour-img img {
+    width: 100%;
+  }
+  .destination-container {
+    width: 375px;
+    margin: 0 auto;
+  }
+  .text-container h2 {
+    font-size: 20px;
+  }
+  .text-container p {
+    font-size: 18px;
+  }
+  .destination-img img {
+    width: 99%;
+  }
+  .image {
+    display: block;
+  }
+  .choosing-container {
+    width: 375px;
+    margin: 0 auto;
+  }
+  .text-container p {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding-top: 0;
+  }
+
+  .price-container {
+    width: 353px;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  .perfect-place {
+    width: 375px;
+    margin: 0px auto;
+    /* display: flex; */
+    flex-direction: column;
+  }
+  .video-container {
+    padding-right: 0px;
+  }
+  .video-container h1 {
+    font-size: 20px;
+  }
+  .video-container p,
+  ul > li {
+    font-size: 14px;
+  }
+  .video-img {
+    margin: 10px 0;
+  }
+  .video-img img {
+    width: 100%;
+  }
+  .full-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .main-content {
+    width: 95%;
+    padding: 10px 10px;
+  }
+  .newsletter-img img {
+    width: 100%;
+  }
+  .percentage {
+    bottom: 32px;
+    width: 214px;
+    height: 70px;
+  }
+  .footer-container {
+    width: 375px;
+    font-size: 14px;
+  }
+}
